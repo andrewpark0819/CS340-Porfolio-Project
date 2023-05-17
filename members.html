@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Members Table</title>
+</head>
+<body>
+    <h1>Members</h1>
+    [<a href="members.html">Members</a> | <a href="workouts.html">Workouts</a> | <a href="workout_details.html">Workout Details</a> | <a href="equipments.html">Equipments</a> | <a href="group_classes.html">Group Classes</a> | <a href="group_class_details.html">Group Class Details</a>] 
+    <div>
+        <p>
+    <table>
+        <caption>List of Members</caption>
+        <tr>
+            <th>Member ID</th>
+            <th>Start Date</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Height (cm)</th>
+            <th>Weight (lbs)</th>
+            <th>BMI</th>
+            <th>Body Fat (%)</th>
+            <th>Muscle Mass (%)</th>
+            <th></th>
+            <th><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">New</a></th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>01/01/2023</td>
+            <td>Abe</td>
+            <td>Lincoln</td>
+            <td>abe.lincoln@gmail.com</td>
+            <td>193</td>
+            <td>180</td>
+            <td>18</td>
+            <td>16</td>
+            <td>74</td>
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>
+
+        </tr>
+
+
+    <tr>
+        <td>2</td>
+        <td>01/01/2023</td>
+        <td>Harry</td>
+        <td>Truman</td>
+        <td>harry.truman@gmail.com</td>
+        <td>175</td>
+        <td>150</td>
+        <td>20.5</td>
+        <td>20</td>
+        <td>80</td>
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>
+
+
+    </tr>
+   
+    <tr>
+        <td>3</td>
+        <td>01/01/2023</td>
+        <td>Franklin</td>
+        <td>Roosevelt</td>
+        <td>franklin.roosevelt@gmail.com</td>
+        <td>185</td>
+        <td>200</td>
+        <td>26</td>
+        <td>30</td>
+        <td>70</td>
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>
+
+
+    </tr>    
+    <tr>
+        <td>4</td>
+        <td>01/01/2023</td>
+        <td>Teddy</td>
+        <td>Roosevelt</td>
+        <td>teddy.roosevelt@gmail.com</td>
+        <td>180</td>
+        <td>180</td>
+        <td>21.5</td>
+        <td>30</td>
+        <td>70</td>
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>
+
+
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>05/01/2020</td>
+        <td>James</td>
+        <td>Madison</td>
+        <td>james.madison@gmail.com</td>
+        <td>150</td>
+        <td>130</td>
+        <td>17.5</td>
+        <td>15</td>
+        <td>60</td>
+
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+        <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>
+
+    </tr>
+    </table>
+    </p>
+</div>
+
+
+<p>
+<!-- Create  -->
+<div>
+    <form>
+    <legend class="legend"><strong>Add Member</strong></legend>
+    <input type="date"> 
+    <input type="text" placeholder="First Name"> 
+    <input type="text" placeholder="Last Name"> 
+    <input type="email" placeholder="Email"> 
+    <input type="number" placeholder="Height"> 
+    <input type="number" placeholder="Weight"> 
+    <input type="number" placeholder="BMI"> 
+    <input type="number" placeholder="Body Fat"> 
+    <input type="number" placeholder="Muscle Mass"> 
+    <p>
+        <button>Submit</button>
+        <button>Clear</button>
+
+    </p>
+
+</form>
+   
+</div>
+</p>
+
+<p>
+    <!-- Update  -->
+    <div>
+        <form>
+        <legend class="legend"><strong>Update Member</strong></legend>
+        <input type="date"> 
+        <input type="text" placeholder="First Name"> 
+        <input type="text" placeholder="Last Name"> 
+        <input type="email" placeholder="Email"> 
+        <input type="number" placeholder="Height"> 
+        <input type="number" placeholder="Weight"> 
+        <input type="number" placeholder="BMI"> 
+        <input type="number" placeholder="Body Fat"> 
+        <input type="number" placeholder="Muscle Mass"> 
+        <p>
+            <button>Update</button>
+            <button>Clear</button>
+
+        </p>
+
+    </form>
+       
+    </div>
+    </p>
+
+    <p>
+        <!-- Create  -->
+        <div>
+            <form>
+            <legend class="legend"><strong>Delete Member</strong></legend>
+            <input type="number" placeholder="Member ID"> 
+
+            <p>
+                <button>Delete</button>
+                <button>Clear</button>
+
+            </p>
+
+        </form>
+           
+        </div>
+        </p>
+
+<!-- Update   -->
+
+<!-- Delete  -->
+
+
+</body>
+
+
+</html>

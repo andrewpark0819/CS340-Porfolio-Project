@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Details Table</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Workout Details</h1>
+    [<a href="members.html">Members</a> | <a href="workouts.html">Workouts</a> | <a href="workout_details.html">Workout Details</a> | <a href="equipments.html">Equipments</a> | <a href="group_classes.html">Group Classes</a> | <a href="group_class_details.html">Group Class Details</a>] 
+    <div>
+        <p>
+    <table>
+        <caption>List of Exercises</caption>
+        <tr>
+            <th>Record ID</th>
+            <th>Workout ID</th>
+            <th>Equipment ID</th>
+            <th>Exercise Name</th>
+            <th>Set Number</th>
+            <th>Rep</th>
+            <th>Weight(lbs)</th>
+            <th>Time(min)</th>
+            <th>Distance Covered (miles</th>
+            <th>Queue Time (min)</th>
+            <th></th>
+            <th><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">New</a></th>
+
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>13</td>
+            <td>1</td>
+            <td>Deadlift</td>
+            <td>3</td>
+            <td>10</td>
+            <td>315</td> 
+            <td>20</td> 
+            <td>NULL</td>
+            <td>10</td>   
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>                      
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>13</td>
+            <td>2</td>
+            <td>Lat Pull Down</td>
+            <td>4</td>
+            <td>12</td>
+            <td>100</td> 
+            <td>15</td> 
+            <td>NULL</td>
+            <td>3</td>    
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>                     
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>11</td>
+            <td>3</td>
+            <td>Running</td>
+            <td>Null</td>
+            <td>Null</td>
+            <td>Null</td> 
+            <td>30</td> 
+            <td>5</td>
+            <td>0</td>   
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>                      
+        </tr>
+
+
+        <tr>
+            <td>104</td>
+            <td>15</td>
+            <td>4</td>
+            <td>Cycling</td>
+            <td>Null</td>
+            <td>Null</td>
+            <td>Null</td> 
+            <td>20</td> 
+            <td>10</td>
+            <td>0</td>     
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Edit</a></td>
+            <td><a href="https://web.engr.oregonstate.edu/~parkandr/members.html">Delete</a></td>                    
+        </tr>        
+    </table>
+    </p>
+</div>
+
+<p>
+    <!-- Create  -->
+    <div>
+        <form>
+        <legend class="legend"><strong>Add Workout Details</strong></legend>
+        <input type="number" placeholder="Record ID"> 
+        <input type="number" placeholder="Workout ID"> 
+        <input type="number" placeholder="Equipment ID"> 
+        <input type="text" placeholder="Exercise Name"> 
+        <input type="number" placeholder="Set Number"> 
+        <input type="number" placeholder="Rep"> 
+        <input type="number" placeholder="Weight"> 
+        <input type="number" placeholder="Time"> 
+        <input type="number" placeholder="Distance Covered"> 
+        <input type="number" placeholder="Queue Time"> 
+        <p>
+            <button>Submit</button>
+            <button>Clear</button>
+    
+        </p>
+    </form>
+       
+    </div>
+    </p>
+
+    <!-- Update  -->
+    <p>
+        <!-- Create  -->
+        <div>
+            <form>
+            <legend class="legend"><strong>Update Workout Details</strong></legend>
+            <input type="number" placeholder="Record ID"> 
+            <input type="number" placeholder="Workout ID"> 
+            <input type="number" placeholder="Equipment ID"> 
+            <input type="text" placeholder="Exercise Name"> 
+            <input type="number" placeholder="Set Number"> 
+            <input type="number" placeholder="Rep"> 
+            <input type="number" placeholder="Weight"> 
+            <input type="number" placeholder="Time"> 
+            <input type="number" placeholder="Distance Covered"> 
+            <input type="number" placeholder="Queue Time"> 
+            <p>
+                <button>Update</button>
+                <button>Clear</button>
+        
+            </p>
+        </form>
+           
+        </div>
+        </p>
+
+    <!-- Delete  -->
+    <p>
+        <!-- Create  -->
+        <div>
+            <form>
+            <legend class="legend"><strong>Delete Workout Details</strong></legend>
+            <input type="number" placeholder="Workout ID"> 
+    
+            <p>
+                <button>Delete</button>
+                <button>Clear</button>
+        
+            </p>
+        </form>
+           
+        </div>
+        </p>
+    </body>

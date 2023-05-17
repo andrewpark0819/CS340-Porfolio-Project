@@ -1,0 +1,36 @@
+body{
+    color:black;
+    background: white;
+}
+
+table{
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1pt solid black;
+
+}
+
+th{
+    padding: 20px;  
+    border-right: 1pt solid black;
+}
+
+td{
+    padding: 25px;
+    border-right: 1pt solid black;
+}
+
+form{
+    border-style: solid;
+    border-width: 1pt;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+.legend{
+padding-bottom: 20px;
+}
