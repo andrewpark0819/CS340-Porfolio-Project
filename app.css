@@ -1,36 +1,80 @@
-body{
-    color:black;
-    background: white;
+body {
+  color: black;
+  background: rgb(251, 239, 203);
+  /* eDC7B7; */
+
+  /* background-image: url("/nfs/stak/users/parkandr/public_html/pexels-li-sun-2294361.jpg"); */
 }
 
-table{
-    border-color: black;
-    border-style: solid;
-    border-collapse: collapse;
+/* #homepage{
+background-image: url("pexels-li-sun-2294361.jpg);
+} */
+
+a {
+  display: inline-block;
+  color: blue;
+  margin-bottom: 20px;
 }
 
-tr{
-    border-bottom: 1pt solid black;
-
+table {
+  border-color: rgb(18, 63, 119);
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 3px;
+  color: black;
+  margin: auto;
+  margin-top: 10px;
 }
 
-th{
-    padding: 20px;  
-    border-right: 1pt solid black;
+.title {
+  color: black;
+  font-family: copperplate;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
-td{
-    padding: 25px;
-    border-right: 1pt solid black;
+tr {
+  border-bottom: 1pt solid black;
 }
 
-form{
-    border-style: solid;
-    border-width: 1pt;
-    border-color: black;
-    border-collapse: collapse;
+th {
+  padding: 20px;
+  border-right: 1pt solid black;
 }
 
-.legend{
-padding-bottom: 20px;
+td {
+  padding: 25px;
+  border-right: 1pt solid black;
+}
+
+form {
+  border-style: solid;
+  border-width: 1pt;
+  border-color: black;
+  border-collapse: collapse;
+}
+
+.legend {
+  padding-bottom: 20px;
+}
+
+.odd {
+  background-color: lightcyan;
+}
+
+.even {
+  background-color: rgb(15, 134, 182);
+}
+
+.crud {
+  background-color: rgb(18, 63, 119);
+}
+
+legend {
+  color: rgb(245, 219, 55);
+}
+
+.delete {
+  margin-bottom: 50px;
+  background-color: rgb(18, 63, 119);
 }
